@@ -1,6 +1,6 @@
 ```
 npm i
-npm lerna bootstrap
+npx lerna bootstrap
 cd packages/routing-playground
 npm start
 ```

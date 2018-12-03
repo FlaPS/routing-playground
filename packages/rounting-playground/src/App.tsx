@@ -46,6 +46,7 @@ const reactRoutes = Object
 const {
     Header, Footer, Sider, Content,
 } = Layout;
+
 /**
  * Legacy provider used for connected-react-router
  * @constructor
