@@ -1,0 +1,38 @@
+{
+  "name": "@sha/fsa",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "skipBabel": true
+      }
+    },
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ]
+  },
+  "typings": "src",
+  "scripts": {
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "@types/ramda": "^0.25.41",
+    "jest": "^22.1.1",
+    "ramda": "^0.25.0",
+    "ts-jest": "^22.0.1"
+  }
+}

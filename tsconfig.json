@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    // Target latest version of ECMAScript.
+    "target": "es5",
+    "module": "commonjs",
+    // Search under node_modules for non-relative imports.
+    "moduleResolution": "node",
+    // Process & infer types from .js files.
+    "allowJs": true,
+    "jsx": "react",
+
+    // Don't emit; allow Babel to transform files.
+    //"noEmit": true,
+    // Enable strictest settings like strictNullChecks & noImplicitAny.
+    "strict": true,
+    // Disallow features that require cross-file information for emit.
+     "isolatedModules": false,
+
+    // Import non-ES modules as default imports.
+    "esModuleInterop": true,
+
+    "lib": ["es6", "dom", "es2017.object", "es2017"],
+    "sourceMap": true,
+
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "downlevelIteration": true
+  }
+}
